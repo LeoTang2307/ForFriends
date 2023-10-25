@@ -4,10 +4,6 @@
     box-sizing: border-box;
 }
 
-html {
-    height: 100%;
-}
-
 body {
     background-image: url(./fall-road.jpg);
     background-repeat: no-repeat;
@@ -15,7 +11,6 @@ body {
     background-position: center;
     background-color: rgb(255, 255, 255, 0.6);
     background-blend-mode: lighten;
-    height: 100%;
 }
 
 .container {
@@ -30,7 +25,7 @@ body {
 
 nav {
     background-color: black;
-    width: 25em;
+    width: 150em;
 }
 
 .hero-logo {
