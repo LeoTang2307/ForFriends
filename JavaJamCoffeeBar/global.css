@@ -1,87 +1,88 @@
 * {
+    margin: 0;
+    padding: 0;
     box-sizing: border-box;
 }
 
-body {
-    background-image: url("./background.jpg");
-    background-repeat: no-repeat;
-    background-size: cover;
-    background-color: rgba(255,255,255,0.5);
-    background-blend-mode: lighten;
-    margin-left: 8%;
-    margin-right: 8%;
-}   
-
-.main-section {
-    display: flex;
+html {
+    height: 100%;
 }
 
-img {
+body {
+    background-image: url(./fall-road.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    background-color: rgb(255, 255, 255, 0.6);
+    background-blend-mode: lighten;
+    height: 100%;
+}
+
+.container {
+    margin: 5px 20% 0 20%;
+}
+
+.hero-section {
+    display: flex;
+    border: 1px solid;
+    box-shadow: 1px 1px 5px;
+}
+
+nav {
+    background-color: black;
+    width: 25em;
+}
+
+.hero-logo {
     max-width: 100%;
     max-height: 100%;
 }
 
-nav {
-    width: 15%;
-    background-color: black;
-    color: beige;
+.nav-list {
+    list-style: none;
+    text-align: center;
+    padding: 10px 50px 0 0;
 }
 
-.logo {
-    width: 100%;
-    height: 15%;
-}
-
-.menu-items {
-    padding: 0 0 0 30px;
-    height: 85%;
-}
-
-.menu-items a {
-    color: inherit;
+.nav-item {
+    color: bisque;
     text-decoration: none;
+    font-size: large;
+    font-weight: 900;
 }
 
-.body-section {
-    width: 85%;
+main {
+    flex-grow: 1;
 }
 
-.header {
-    background-color: bisque;
+.hero-header {
+    background-color: rgb(164, 145, 119);
     padding: 30px;
-}
-
-h1 {
-    margin: 0;
-}
-
-.hero-image-section {
-    height: 200px;
+    font-size: 35px;
+    font-weight: 900;
 }
 
 .hero-image {
+    display: block;
     width: 100%;
-    height: 100%;
+    height: 200px;
+    max-width: 100%;
+    max-height: 100%;
 }
 
-.content {
-    background-color: rgb(245, 255, 183);
-    padding: 20px;
-}
-
-p {
-    margin: 0;
-}
-
-.footer-section {
+.hero-content {
     background-color: blanchedalmond;
-    text-align: center;
+    padding: 15px 30px 45px 30px;
 }
 
 footer {
+    background-color: rgb(164, 145, 119);
     display: grid;
-}
-
-footer a {
-    color: blue;
+    text-align: center;
+    height: auto;
+    font-size: 8px;
+    font-style: italic;
+    border: 1px solid;
+    box-shadow: 1px 1px 5px;
+    padding-bottom: 5px
 }
